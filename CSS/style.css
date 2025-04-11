@@ -24,6 +24,16 @@ body.house {
     height: 100%;
 }
 
+p {
+    padding: none;
+    margin: none;
+    color: white;
+}
+
+p#intro{
+    max-width: 120px;
+}
+
 body.house img {
     border: 5px solid rgb(17, 6, 1);
     margin-top: 0;
@@ -41,7 +51,7 @@ body img {
     height: 75vh;
     overflow: hidden;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 img#rengoku{
@@ -93,4 +103,17 @@ body a:hover {
 
 body a:hover img {
     border: 5px solid rgb(237, 237, 80);
+}
+
+#button {
+    height: 40px;
+    width: 80px;
+    background-color: rgb(189, 134, 39);
+    border: none;
+    margin: none;
+    border-radius: 5px;
+    font-family: "Dekko", serif;
+    font-size: 18px;
+    border: 1px solid black;
+    line-height: 38px;
 }
