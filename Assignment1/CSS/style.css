@@ -1,6 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+
 body {
     background-image: url(../images/terraria3.png);
     background-repeat: no-repeat;
     background-color: lightskyblue;
     background-size: 100vw 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dekko", serif;
+    font-size: 25px;
+    color: darkgray;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    height: 100%;
+}
+
+body.house {
+    margin-top: 13vh;
+    background-image: url(../images/terraria3.png);
+    background-size: 100vw 100vh;
+    height: 100%;
+}
+
+body.house img {
+    border: 5px solid rgb(17, 6, 1);
+    margin-top: 0;
+}
+
+body img {
+    height: 15vh;
+    width: 30vw;
+    margin-top: 20vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img#rengoku{
+    height: 20vh;
+    width: 10vw;
+}
+
+img#gojo1{
+    height: 20vh;
+    width: 14vw;
+}
+
+img#gojo2{
+    height: 20vh;
+    width: 14vw;
+}
+
+img#xiao{
+    height: 20vh;
+    width: 9vw;
+}
+
+img#viktor{
+    height: 20vh;
+    width: 9vw;
+}
+
+img#kazuha{
+    height: 20vh;
+    width: 25vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+img#ivan{
+    height: 20vh;
+    width: 14vw;
+}
+
+body a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+body a:hover {
+    color: yellow;
+    font-size: 26px;
+}
+
+body a:hover img {
+    border: 5px solid rgb(237, 237, 80);
 }
