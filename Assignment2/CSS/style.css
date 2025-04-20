@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+html {
+    height: 100%;
+}
+
+@keyframes textSize {
+    from{font-size: 16px;}
+    to{font-size: 17px;}
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    line-height: 40px;
+    font-family: "Shippori Mincho", serif;
+    animation-name: textSize;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: background-color 1s ease, font-size 1s ease;
+}
+
+.column a:hover img {
+    border: 2px solid rgb(5, 193, 250);
+}
+
+.columnTwo a:hover img {
+    border: 2px solid rgb(5, 193, 250);
+}
+
+h2 {
+    top: 70vh;
+    position: absolute;
+}
+
+.column {
+    gap: 3vw;
+    display: none;
+    transition: opacity 0.5s;
+}
+
+.columnTwo {
+    gap: 3vw;
+    display: none;
+    transition: opacity 0.5s;
+}
+
+.columnTwo img {
+    border: 2px solid white;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+}
+
+#popUpLight {
+    display: none;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s;
+    height: 45vh;
+    width: 30vw;
+}
+
+#popUpDark {
+    display: none;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s;
+    height: 45vh;
+    width: 30vw;
+}
+
+img#white {
+    border: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 5vw;
+    left: 5vw;
+    display: none;
+    transition: opacity 0.5s;
+}
+
+img#black {
+    border: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+    display: none;
+    transition: opacity 0.5s;
+}
+
+img#suga {
+    height: 30vh;
+    width: 30vw;
+    border: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    transition: opacity 0.5s;
+}
+
+#enterText {
+    transition: opacity 0.5s;
+}
+
+#toBlack {
+    transition: opacity 0.5s;
+}
+
+#toWhite {
+    transition: opacity 0.5s;
+}
+
+img#gojo {
+    transition: opacity 6s;
+    height: 15vh;
+    width: 20vw;
+}
+
+img#geto {
+    transition: opacity 6s;
+    height: 15vh;
+    width: 20vw;
+}
+
+p {
+    font-family: "Hurricane", serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#gojoOne{
+    display: none;
+    transition: opacity 2s ease-in-out;
+    margin: 0;
+}
+
+#gojoTwo{
+    display: none;
+    transition: opacity 2s ease-in-out;
+    margin: 0;
+}
+
+#getoOne{
+    display: none;
+    transition: opacity 2s ease-in-out;
+    margin: 0;
+    color: white;
+}
+
+#getoTwo{
+    display: none;
+    transition: opacity 2s ease-in-out;
+    margin: 0;
+    color: white;
+}
