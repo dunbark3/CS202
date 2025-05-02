@@ -4,7 +4,7 @@ img {
 
 .card-container {
     perspective: 1000px;
-    width: 100%;
+    width: 80%;
     height: 40vh;
 }
   
