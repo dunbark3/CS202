@@ -1,0 +1,232 @@
+[
+    {
+        "name":"Caramel Ribbon Crunch",
+        "state":"Blended",
+        "caffeine":"Moderate",
+        "complexity":"Simple",
+        "flavors":"Caramel, light coffee taste",
+        "notes":"Sweet",
+        "order":"Ask for a caramel ribbon crunch frappuccino",
+        "image":"images/caramelRibbon.jpeg"
+    },
+
+    {
+        "name":"Mocha",
+        "state":"Hot",
+        "caffeine":"Moderate",
+        "complexity":"Simple",
+        "flavors":"Chocolaty",
+        "notes":"Rich, Sweet",
+        "order":"Ask for a hot mocha",
+        "image":"images/mocha.jpeg"
+    },
+
+    {
+        "name":"Oatmilk Shaken Espresso",
+        "state":"Iced",
+        "caffeine":"High",
+        "complexity":"Simple",
+        "flavors":"Strong coffee taste, light brown sugar and cinnamon",
+        "notes":"Energizing, Creamy",
+        "order":"Ask for a brown sugar oatmilk shaken espresso",
+        "image":"images/brownSugar.jpg"
+    },
+
+    {
+        "name":"Matcha",
+        "state":"Iced",
+        "caffeine":"Low",
+        "complexity":"Simple",
+        "flavors":"Green tea taste",
+        "notes":"Soothing, Sweet, Creamy",
+        "order":"Ask for an iced matcha latte",
+        "image":"images/matcha.jpeg"
+    },
+
+    {
+        "name":"Strawberry Lemonade",
+        "state":"Iced",
+        "caffeine":"Low",
+        "complexity":"Simple",
+        "flavors":"Fruity, Tart",
+        "notes":"Refreshing, Sweet",
+        "order":"Ask for a strawberry acai with lemonade",
+        "image":"images/acai.jpeg"
+    },
+
+    {
+        "name":"Caramel Macchiato",
+        "state":"Hot",
+        "caffeine":"Moderate",
+        "complexity":"Simple",
+        "flavors":"Vanilla, Light Caramel, Strong Coffee Taste",
+        "notes":"Creamy, Sweet",
+        "order":"Ask for a hot caramel macchiato with an extra pump of vanilla",
+        "image":"images/caramelMacc.jpeg"
+    },
+
+    {
+        "name":"Cold Brew",
+        "state":"Iced",
+        "caffeine":"High",
+        "complexity":"Simple",
+        "flavors":"Very Strong Coffee Taste, Light Vanilla",
+        "notes":"Energizing, Strong, Low-cal",
+        "order":"Ask for a cold brew with sugar free vanilla",
+        "image":"images/coldBrew.jpeg"
+    },
+
+    {
+        "name":"My Favorite",
+        "state":"Iced",
+        "caffeine":"High",
+        "complexity":"Complex",
+        "flavors":"Strong Coffee Taste, Light Vanilla, Cinnammon",
+        "notes":"Creamy, Energizing, Low-Cal",
+        "order":"Ask for a brown sugar oatmilk shaken espresso with two extra pumps of sugar free vanilla instead of brown sugar syrup and cinnamon dolce topping instead of cinnamon topping",
+        "image":"images/vanillaShaken.jpeg"
+    },
+
+    {
+        "name":"Sweet Cream Shaken",
+        "state":"Iced",
+        "caffeine":"High",
+        "complexity":"Moderate",
+        "flavors":"Vanilla, Strong Coffee Taste, Light Brown Sugar",
+        "notes":"Sweet, Energizing, Extra Creamy",
+        "order":"Ask for a brown sugar shaken espresso with vanilla sweet cream cold foam and cinnamon powder on top",
+        "image":"images/brownColdFoam.jpeg"
+    },
+
+    {
+        "name":"Peppermint Matcha",
+        "state":"Iced",
+        "caffeine":"Low",
+        "complexity":"Moderate",
+        "flavors":"Peppermint, Green Tea Taste",
+        "notes":"Creamy, Sweet, Soothing",
+        "order":"Ask for an iced matcha latte made with coconut milk and peppermint syrup",
+        "image":"images/matchaPep.jpeg"
+    },
+
+    {
+        "name":"Cold Foam Matcha",
+        "state":"Iced",
+        "caffeine":"Low",
+        "complexity":"Complex",
+        "flavors":"Chocolaty, Peppermint, Green Tea Taste",
+        "notes":"Extra Creamy, Sweet, Soothing, Rich",
+        "order":"Ask for an iced matcha latte made with coconut milk, with chocolate cold foam on top and peppermint syrup in the foam",
+        "image":"images/chocolateMatcha.jpeg"
+    },
+
+    {
+        "name":"Peach Strawberry Lemonade",
+        "state":"Iced",
+        "caffeine":"Low",
+        "complexity":"Moderate",
+        "flavors":"Fruity, Tart",
+        "notes":"Refreshing, Sweet",
+        "order":"Ask for a strawberry acai lemonade with peach juice added to it and light ice",
+        "image":"images/peachJuice.jpeg"
+    },
+
+    {
+        "name":"Frozen Strawberry",
+        "state":"Blended",
+        "caffeine":"Low",
+        "complexity":"Complex",
+        "flavors":"Strong Fruity Taste, Tart",
+        "notes":"Refreshing, Sweet, ",
+        "order":"Ask for a strawberry acai lemonade blended, with strawberry puree and light peach juice added to it and extra ice",
+        "image":"images/blendedLemonade.jpeg"
+    },
+
+    {
+        "name":"Strawberry Vanilla",
+        "state":"Iced",
+        "caffeine":"Low",
+        "complexity":"Intense",
+        "flavors":"Strong Vanilla, Fruity",
+        "notes":"Extra Creamy, Extra Sweet, Extra",
+        "order":"Ask for a pink drink made with vanilla sweet cream and extra vanilla cold foam, with vanilla bean powder and vanilla syrup added to it, extra inclusions",
+        "image":"images/pinkVanilla.jpeg"
+    },
+
+    {
+        "name":"Black and White Mocha",
+        "state":"Hot",
+        "caffeine":"Moderate",
+        "complexity":"Moderate",
+        "flavors":"Chocolaty, Light Coffee Taste",
+        "notes":"Rich, Sweet, Creamy",
+        "order":"Ask for a hot mocha made with half mocha and half white mocha",
+        "image":"images/blackAndWhite.jpeg"
+    },
+
+    {
+        "name":"Caramel Ribbon Plus",
+        "state":"Blended",
+        "caffeine":"High",
+        "complexity":"Moderate",
+        "flavors":"Strong caramel, coffee taste",
+        "notes":"Rich, Sweet",
+        "order":"Ask for a caramel ribbon crunch frappuccino with caramel walls and extra caramel drizzle on top, with an added pump of frapp roast",
+        "image":"images/linedCaramel.jpeg"
+    },
+
+    {
+        "name":"Sweetened Cold Brew",
+        "state":"Iced",
+        "caffeine":"High",
+        "complexity":"Moderate",
+        "flavors":"Strong Coffee Taste, Vanilla",
+        "notes":"Energizing, Strong, Creamy",
+        "order":"Ask for a vanilla sweet cream cold brew light ice and vanilla sweet cream cold foam",
+        "image":"images/sweetBrew.jpeg"
+    },
+
+    {
+        "name":"Mocha Americano",
+        "state":"Hot",
+        "caffeine":"High",
+        "complexity":"Moderate",
+        "flavors":"White Chocolate, Strong Coffee Taste",
+        "notes":"Rich, Strong, Energizing",
+        "order":"Ask for a hot americano with half the pumps of white mocha and light cream",
+        "image":"images/mochaAmericano.jpeg"
+    },
+
+    {
+        "name":"Cookie Dough Frappuccino",
+        "state":"Blended",
+        "caffeine":"Moderate",
+        "complexity":"Complex",
+        "flavors":"White Chocolate, Light Chocolate",
+        "notes":"Rich, Sweet",
+        "order":"Ask for a white mocha frappuccino with java chips added and whipped cream at the bottom, lined with mocha drizzle and with mocha drizzle and cookie crumble topping on top",
+        "image":"images/cookieDough.jpeg"
+    },
+
+    {
+        "name":"Pumpkin Mocha",
+        "state":"Iced",
+        "caffeine":"Moderate",
+        "complexity":"Complex",
+        "flavors":"Pumpkin, White Chocolate, Light Coffe Taste",
+        "notes":"Rich, Creamy, Sweet, Light Spice",
+        "order":"Ask for a iced white mocha made with blonde espresso with pumpkin cream cold foam instead of the whip cream",
+        "image":"images/pumpkin.jpeg"
+    },
+
+    {
+        "name":"One of my Regular's Orders",
+        "state":"Hot",
+        "caffeine":"Moderate",
+        "complexity":"Complex",
+        "flavors":"Cinnamon, Chai Tea",
+        "notes":"Sweet, Spicy",
+        "order":"Ask for a hot chai with 7 pumps of chair, 6 shakes of cinnamon powder stirred in, no water, no foam, and light whip cream",
+        "image":"images/chai.jpeg"
+    }
+]
