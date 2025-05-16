@@ -69,7 +69,7 @@ var elizaSynons = {
   "happy": ["elated", "joyful", "content", "blessed"],
   "sad": ["unhappy", "disheartened", "downtrodden", "troubled", "feel bad"],
   "strength": ["power", "resolve", "fire", "spirit", "heart"],
-  "fear": ["uncertainty", "doubt", "obstacle", "burden"],
+  "afraid": ["fear, uncertainty", "doubt", "obstacle", "burden"],
   "battle": ["fight", "struggle", "trial", "conflict", "responsibility"],
   "victory": ["duty fulfilled", "overcome", "triumph", "success"],
   "defeat": ["lesson", "setback", "opportunity"],
@@ -270,7 +270,7 @@ var elizaKeywords = [
 ]],
 ["are", 0, [
  ["* are you *", [
-  "Whether I am (2) or not matters little — as long as I serve to protect humanity from demons!",
+  "Who I am (2) matters little — as long as I serve to protect humanity from demons!",
   "Would it ignite your spirit to know I am (2)?",
   "I may not be (2), but my fighting spirit is strong nonetheless!",
   "Ha! Even I have many secrets — perhaps you wish to uncover one?",
@@ -338,6 +338,10 @@ var elizaKeywords = [
     "It is important to find such happiness whenever possible! What brought such a feeling of (3)?",
     "Hold tightly onto that feeling — it is what keeps our hearts burning!"
   ]],
+  ["* i am* @afraid *", [
+    "Fear is only natural! It is how we choose to face it that defines us.",
+    "HA! What is there to fear?"
+  ]],
  ["* i was *", [
      "goto was"
   ]],
@@ -363,11 +367,20 @@ var elizaKeywords = [
     "You may think you can't (3), but what would you give if you knew that you could?",
     "Let’s find a way. If not through strength, then through will!"
   ]],
+  ["* i don't want to grow old *", [
+    "Aging is only natural. The fact we are only here for so long is part of what makes being human beautiful."
+  ]],
  ["* i don't *", [
   "You say you don’t (2)... but even hesitation can blossom into courage!",
   "Why hold back from (2)? Is there fear — fear in your heart?",
-  "Do you *wish* to (2)? Then ignite your heart and pursue (2) with haste!",
-  "I see! Does the idea of (2) trouble you?"
+  "Do you wish to (2)? Then ignite your heart and pursue (2) with haste!",
+  "I see! Does this idea trouble you?"
+  ]],
+  ["* afraid of getting older *", [
+    "It is only through change that we grow. Face it head-on, with a blazing heart."
+  ]],
+  ["* getting old scares me *", [
+    "Even the strongest flame fades in time — but how brightly it burns, that is what matters!"
   ]],
  ["* i feel *", [
   "HA! Your feelings are not weakness — speak them, and allow yourself to grow stronger!",
