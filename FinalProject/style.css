@@ -1,9 +1,17 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #e3e4e4);
+    background-repeat: no-repeat;
+}
+
 #messages div {
     padding: 8px 12px;
     margin-bottom: 6px;
     border-radius: 10px;
-    background-color: #f1f0f0;
+    background-color: #000000;
     max-width: 80%;
     font-family: Arial, sans-serif;
-  }
+    color: white;
+}
   

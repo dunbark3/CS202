@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #e3e4e4);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 8vw;
+    height: 6vh;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.form-container {
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    padding: 20px 30px;
+    margin: 40px auto;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form {
+
+}
