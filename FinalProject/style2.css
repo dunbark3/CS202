@@ -19,18 +19,43 @@ button {
 }
 
 .form-container {
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
     padding: 20px 30px;
     margin: 40px auto;
     width: 300px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    font-family: 'Segoe UI', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 12px;
 }
 
-form {
+.form-container label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
 
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.submit {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.input_error {
+    border: 2px solid red;
 }

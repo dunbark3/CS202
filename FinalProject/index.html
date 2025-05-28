@@ -12,20 +12,22 @@
     <button id="signup">Sign Up</button>
     <form action="chat.html" id="signup_form" class ="form-container" style="display: none">
         <label for="name">Enter First Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
+        <input type="text" id="signup_name" name="name"><br><br>
         <label for="password">Set Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
-        <input type="submit" value="Submit">
+        <input type="password" id="signup_password" name="password"><br><br>
+        <input type="submit" value="Submit" class="submit">
     </form>
+    <p id="signup_error" style="font-size:10px;"></p>
     <button id="signin">Sign In</button>
     <form action="chat.html" id="signin_form" class="form-container" style="display: none">
         <label for="name">Enter First Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
+        <input type="text" id="signin_name" name="name"><br><br>
         <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
-        <input type="submit" value="Submit">
+        <input type="password" id="signin_password" name="password"><br><br>
+        <input type="submit" value="Submit" class="submit">
     </form>
-    <script type="module" src="app.js"></script>
+    <p id="signin_error" style="font-size:10px;"></p>
+    <script type="module" src="signin.js"></script>
   </body>
   
 </html>

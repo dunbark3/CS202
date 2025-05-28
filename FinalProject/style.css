@@ -14,4 +14,37 @@ body {
     font-family: Arial, sans-serif;
     color: white;
 }
-  
+
+#chat {
+    width: 500px;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+}
+
+#messageInput {
+    width: 25vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    outline: none;
+    font-size: 14px;
+}
+
+#sendBtn {
+    width: 70px;
+    padding: 10px;
+    margin-top: 12px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
