@@ -84,12 +84,17 @@ async function play() {
         player.play();
     }, { once: true });
 }
+let playbackUnlocked = false;
+
+document.getElementById("startPlaybackBtn").addEventListener("click", () => {
+    playbackUnlocked = true;
+    play();
+});
 
 player.addEventListener("ended", async () => {
     trackIndex = (trackIndex + 1) % trackList.length;
     await startTrack(trackIndex);
-});
-
-document.getElementById("startPlaybackBtn").addEventListener("click", () => {
-    play();
+    if (playbackUnlocked) {
+        player.play();
+    }
 });
