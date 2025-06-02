@@ -13,7 +13,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// Reveal the forms
 document.getElementById('signup').addEventListener('click', () => {
     document.getElementById('signup_form').style.display = 'block';
     document.getElementById('signup').style.display = 'none';
@@ -24,8 +23,6 @@ document.getElementById('signin').addEventListener('click', () => {
     document.getElementById('signup').style.display = 'none';
     document.getElementById('signin').style.display = 'none';
 });
-
-// Check for validation
 
 const users = collection(db, 'users');
 document.getElementById('signup_form').addEventListener('submit', async function(event) {

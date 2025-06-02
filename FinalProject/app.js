@@ -97,3 +97,46 @@ player.addEventListener("ended", async () => {
         player.play();
     }, { once: true });
 });
+
+// Chat helped here
+const audio = document.getElementById('player');
+const canvas = document.getElementById('visualizer');
+const ctx = canvas.getContext('2d');
+
+const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+const source = audioCtx.createMediaElementSource(audio);
+const analyser = audioCtx.createAnalyser();
+analyser.fftSize = 512;
+source.connect(analyser);
+analyser.connect(audioCtx.destination);
+
+const bufferLength = analyser.frequencyBinCount;
+const dataArray = new Uint8Array(bufferLength);
+
+function draw() {
+    requestAnimationFrame(draw);
+
+    analyser.getByteFrequencyData(dataArray);
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const barWidth = (canvas.width / bufferLength) * 2.5;
+    const totalBarWidth = (barWidth + 1) * bufferLength;
+    let x = (canvas.width - totalBarWidth) / 2;
+
+    for (let i = 0; i < bufferLength; i++) {
+        const barHeight = dataArray[i];
+
+        ctx.fillStyle = "white";
+        ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+
+        x += barWidth + 1;
+    }
+}
+
+audio.addEventListener("play", () => {
+    if (audioCtx.state === "suspended") {
+        audioCtx.resume();
+    }
+    draw();
+});

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header>
+      <h1>CS202 Chatroom</h1>
+    </header>
     
     <div id="chat">
         <div id="messages" style="height: 300px; width: 470px;overflow-y: auto; border: 1px solid #ccc; padding: 10px;"></div>
@@ -15,8 +18,9 @@
         <button id="sendBtn">Send</button>
     </div>
 
-    <audio id="player" controls preload="auto"></audio>
-    <button id="playBtn">Start Music</button>
+    <audio id="player" preload="auto"></audio>
+    <button id="playBtn">Play</button>
+    <canvas id="visualizer" width="400" height="150"></canvas>
 
     <script type="module" src="app.js"></script>
   </body>

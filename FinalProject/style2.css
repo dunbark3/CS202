@@ -1,12 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     height: 100vh;
-    background: linear-gradient(to bottom, #ffffff, #e3e4e4);
+    background: linear-gradient(to bottom, #000000, #151616);
     background-repeat: no-repeat;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 }
 
 button {
@@ -16,6 +25,7 @@ button {
     background-color: black;
     border-radius: 20px;
     margin: 40px;
+    border: 1px solid white;
 }
 
 .form-container {
@@ -34,6 +44,7 @@ button {
 .form-container label {
     font-weight: bold;
     margin-bottom: 4px;
+    color: white;
 }
 
 .form-container input[type="text"],
@@ -46,16 +57,21 @@ button {
 }
 
 .submit {
-    background-color: #007BFF;
+    background-color: #000000;
     color: white;
     padding: 10px;
     font-size: 15px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px solid white;
     transition: background-color 0.2s ease-in-out;
 }
 
 .input_error {
     border: 2px solid red;
+}
+
+#signin_error {
+    color: white;
 }
