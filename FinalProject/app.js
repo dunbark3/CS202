@@ -50,13 +50,13 @@ const trackList = [
     "./music/music4.mp3"
 ];
 
-const playing = doc(db, "playback", "now_playing");
+const playing = doc(db, "playing", "now_playing");
 
 let trackIndex = 0;
 
-async function startTrack(index) {
+async function startTrack(ind) {
     await setDoc(playing, {
-        currentTrack: index,
+        currentTrack: ind,
         startedAt: serverTimestamp()
     });
 }
@@ -65,13 +65,8 @@ const player = document.getElementById("player");
 
 async function play() {
     const snap = await getDoc(playing);
-
-    if (!snap.exists()) {
-        await startTrack(0);
-        return;
-    }
-  
     const data = snap.data();
+
     trackIndex = data.currentTrack;
     const startedAt = data.startedAt.toMillis();
     const now = Date.now();
@@ -84,17 +79,21 @@ async function play() {
         player.play();
     }, { once: true });
 }
-let playbackUnlocked = false;
 
-document.getElementById("startPlaybackBtn").addEventListener("click", () => {
-    playbackUnlocked = true;
+document.getElementById("playBtn").addEventListener("click", () => {
     play();
 });
 
 player.addEventListener("ended", async () => {
-    trackIndex = (trackIndex + 1) % trackList.length;
-    await startTrack(trackIndex);
-    if (playbackUnlocked) {
+    const next = (trackIndex + 1) % trackList.length;
+    await startTrack(next);
+
+    const elapsed = 0;
+    trackIndex = next;
+    player.src = trackList[trackIndex];
+
+    player.addEventListener("loadedmetadata", () => {
+        player.currentTime = elapsed;
         player.play();
-    }
+    }, { once: true });
 });
