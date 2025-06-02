@@ -44,10 +44,10 @@ onSnapshot(update, (snapshot) => {
 });
 
 const trackList = [
-    "/music/music1.mp3",
-    "/music/music2.mp3",
-    "/music/music3.mp3",
-    "/music/music4.mp3"
+    "./music/music1.mp3",
+    "./music/music2.mp3",
+    "./music/music3.mp3",
+    "./music/music4.mp3"
 ];
 
 const playing = doc(db, "playback", "now_playing");
